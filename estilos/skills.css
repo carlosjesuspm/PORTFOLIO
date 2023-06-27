@@ -1,6 +1,6 @@
 .skills{
 
-    background-color: #20262981;
+    background-color: #20262943;
     color:#fff;
     padding: 50px 20px;
 }
@@ -27,6 +27,12 @@
     
 }
 
+.fila-skills img{
+
+    width: 80px;
+    height: auto;
+}
+
 .col-skills{
 
     width: 50%;
@@ -48,9 +54,8 @@
     display: grid;
     grid-template-columns: auto;
 
-    
-    
 }
+
 
 .front, .back{
 
@@ -89,7 +94,5 @@
     grid-row: 3;
 }
 
-.front, .back, .repositorio i{
 
-    font-size: 60px;
-}
+
