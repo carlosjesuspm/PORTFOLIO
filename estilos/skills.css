@@ -1,0 +1,95 @@
+.skills{
+
+    background-color: #20262981;
+    color:#fff;
+    padding: 50px 20px;
+}
+
+.contenido-skills{
+
+    max-width: 1800px;
+    margin: auto;
+
+}
+
+.skills h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+.fila-skills{
+    display: flex;
+    padding-top: 40px;
+    
+    
+}
+
+.col-skills{
+
+    width: 50%;
+    
+}
+
+.col-skills h3{
+
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor-front, .contenedor-back, .contenedor-repositorios{
+
+    display: grid;
+    grid-template-columns: auto;
+
+    
+    
+}
+
+.front, .back{
+
+    text-align: center;
+    padding:10px;
+}
+
+.repositorio{
+
+    text-align: center;
+    padding:15px;
+}
+
+.f1, .b1{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.f2, .b2{
+    text-align:left;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    
+
+}
+
+.f3, .b3{
+    text-align: right;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    grid-template-columns: auto;
+}
+
+.f4{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.front, .back, .repositorio i{
+
+    font-size: 60px;
+}
