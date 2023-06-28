@@ -1,2 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
 
+/*Colores para light mode*/
+:root {
+
+    --fondo: #e7f6f2;
+    --header: #A5C9CA;
+    --titulo: #2C3333;
+    --letras: #395B64;
+}
+
+.softskills{
+
+    background-color: #20262977;
+    color:#fff;
+    padding: 50px 20px;
+}
+
+.contenido-softskills{
+
+    max-width: 1800px;
+    margin: auto;
+
+}
+
+.softskills h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+.cards-fila1{
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    
+}
+
+.cards-fila2{
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    
+}
+
+.card{
+    background-color: var(--letras);
+    margin:10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.card:hover{
+
+    box-shadow: 0 4px 30px 0 rgba(0,0,0,0.9);
+}
+
+.content{
+    padding: 15px 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.card h3{
+    font-size: 18px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.card img{
+
+    width: 80px;
+    height: auto;
+}
+
