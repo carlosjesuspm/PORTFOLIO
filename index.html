@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="estilos/sobremi.css">
     <link rel="stylesheet" href="estilos/skills.css">
     <link rel="stylesheet" href="estilos/softskills.css">
-    
+    <link rel="stylesheet" href="estilos/contacto.css">
   </head>
   <body>
     <!--HEADER-->
@@ -241,7 +241,7 @@
               <div class="content">
                 <img src="/img/libro.png" alt="Libro">
                 <h3>Mente inquieta</h3>
-                <p>Es una aptitud básica necesaria en cualquier programador. Un entorno de constante cambio, exige no dejar de aprender.</p>
+                <p>Es una aptitud básica y necesaria en cualquier programador. Un entorno de constante cambio, exige no dejar de aprender.</p>
               </div>
             </div>
 
@@ -275,7 +275,7 @@
               <div class="content">
                 <img src="/img/equipo.png" alt="Trabajo en equipo">
                 <h3>Trabajo en equipo</h3>
-                <p>El crecimiento llega de apoyarse unos a otros y trabajar en conjunto.</p>
+                <p>El crecimiento llega de apoyarse unos a otros y de trabajar en conjunto.</p>
               </div>
             </div>
         </div>
@@ -284,38 +284,41 @@
         
     <!--CONTACTO-->
     <section id="contacto" class="contacto">
-
-    </section>
+      <h2>Contacto</h2>
       <div class="formulario-contacto">
-        <h2>Contacto</h2>
+        
         <form action="" method="post">
 
           <div class="nombre">
-            <label for="nombre">Nombre</label>
+            <label for="nombre">Nombre</label><br>
             <input type="text" id="nombre" required placeholder="Escribe tu nombre">
           </div>
+          <br>
           
           <div class="email">
-            <label for="email">Email</label>
+            <label for="email">Email</label><br>
             <input type="email" id="nombre" required placeholder="Escribe tu email">
           </div>
-          
+          <br>
+
           <div class="asunto">
-            <label for="asunto">Asunto</label>
+            <label for="asunto">Asunto</label><br>
             <input type="text" id="asunto" required>
           </div>
+          <br>
 
           <div class="mensaje">
-            <label for="mensaje">Mensaje</label>
+            <label for="mensaje">Mensaje</label><br>
           <textarea name="mensaje" id="mensaje" required placeholder="Deje aquí su comentario..."></textarea>
           </div>
           
+          <br>
           <div class="boton-enviar">
             <button id="enviar" type="submit">Enviar</button>
           </div>
         </form>
       </div>
-
+    </section>
     
   </body>
 </html>
