@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+:root {
+
+    --fondo: #e7f6f2;
+    --header: #A5C9CA;
+    --titulo: #2C3333;
+    --letras: #395B64;
+}
+
+.cv{
+
+    background-color: #20262977;
+    color:#fff;
+    padding: 50px 20px;
+}
+
+.contenido-cv{
+
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+.cv h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+.fila-cv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv .fila-cv .col{
+    width: 49%;
+    padding: 0 20px;
+}
+
+.cv .fila-cv .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.cv .fila-cv .izquierda{
+
+    border-right: 2px solid #252a2e;
+}
+
+.cv .fila-cv .derecha{
+
+    border-left: 2px solid #252a2e;
+}
+
+.cv .fila-cv .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color:var(--letras) ;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+.cv .fila-cv .item h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cv .fila-cv .item .casa{
+
+    color: #1cb698;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.cv .fila-cv .item .fecha{
+    display: block;
+    color: #1cb698;
+    margin-bottom: 10px;
+}
+
+.cv .fila-cv .item p{
+    line-height: 24px;
+}
+
+.cv .fila-cv .izq{
+    border-right: 2px solid #1cb698;
+    margin-right: 20px;
+}
+
+.cv .fila-cv .der{
+    border-left: 2px solid #1cb698;
+    margin-left: 20px;
+}
+
+.cv .fila-cv .item .conectori{
+    height: 2px;
+    background-color: #1cb698;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+
+.cv .fila-cv .item .conectori .circuloi{
+
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #1cb698;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+
+.cv .fila-cv .item .conectord{
+    height: 2px;
+    background-color: #1cb698;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+
+.cv .fila-cv .item .conectord .circulod{
+
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #1cb698;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
