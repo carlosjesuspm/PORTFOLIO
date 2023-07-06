@@ -27,12 +27,13 @@
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-    
+    margin-bottom: 30px;
 }
 
 .fila-cv{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .cv .fila-cv .col{
@@ -99,6 +100,7 @@
     margin-left: 20px;
 }
 
+
 .cv .fila-cv .item .conectori{
     height: 2px;
     background-color: #1cb698;
@@ -141,4 +143,12 @@
     float: left;
     position: relative;
     bottom: 4px;
+}
+
+#educacion1, #complementaria1, #complementaria3, #otras1, #otras3{
+    margin-top: 100px;
+}
+
+#otras4{
+    margin-top: 100px;
 }
