@@ -9,21 +9,21 @@
     --letras: #395B64;
 }
 
-.contacto{
+.contacto {
 
     background-color: var(--titulo);
-    color:#fff;
+    color: #fff;
     padding: 50px 20px;
 }
 
-.contacto h2{
+.contacto h2 {
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
 }
 
-.formulario-contacto{
+.formulario-contacto {
 
     max-width: 1800px;
     height: auto;
@@ -31,15 +31,17 @@
     margin: auto;
     border-radius: 10px;
     text-align: center;
-    
+
 
 }
-.formulario-contacto label{
+
+.formulario-contacto label {
     display: block;
     float: left;
     padding-left: 72px;
 }
-.formulario-contacto input{
+
+.formulario-contacto input {
 
     border-radius: 5px;
     border-color: 35px solid var(--header);
@@ -49,10 +51,10 @@
     margin-top: 10px;
     padding-top: 10px;
     padding-left: 5px;
-    
+
 }
 
-.formulario-contacto textarea{
+.formulario-contacto textarea {
 
     border-radius: 5px;
     border-color: 5px solid var(--header);
@@ -64,7 +66,7 @@
     padding-left: 5px;
 }
 
-.formulario-contacto button{
+.formulario-contacto button {
 
     height: 40px;
     width: 350px;
@@ -73,5 +75,3 @@
     text-transform: uppercase;
     font-family: 'Righteous';
 }
-
-

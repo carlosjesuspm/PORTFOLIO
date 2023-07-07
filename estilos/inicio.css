@@ -93,7 +93,7 @@ body {
 .inicio {
 
     background: linear-gradient(to top, rgb(30, 35, 38, .8), rgb(30, 35, 38, 1)),
-    url(/img/ImagenFondo.jpg);
+        url(/img/ImagenFondo.jpg);
     background-size: cover;
     height: 100vh;
     color: var(--letras);

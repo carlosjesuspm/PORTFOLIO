@@ -9,63 +9,63 @@
     --letras: #395B64;
 }
 
-.softskills{
+.softskills {
 
     background-color: #20262966;
-    color:#fff;
+    color: #fff;
     padding: 50px 20px;
 }
 
-.contenido-softskills{
+.contenido-softskills {
 
     max-width: 1800px;
     margin: auto;
 
 }
 
-.softskills h2{
+.softskills h2 {
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-    
+
 }
 
-.cards-fila1{
+.cards-fila1 {
     display: flex;
     padding-top: 40px;
     justify-content: center;
-    
+
 }
 
-.cards-fila2{
+.cards-fila2 {
     display: flex;
     padding-top: 40px;
     justify-content: center;
-    
+
 }
 
-.card{
+.card {
     background-color: var(--letras);
-    margin:10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
     transition: 0.3s;
     border-radius: 5px;
     width: 25%;
 }
 
-.card:hover{
+.card:hover {
 
-    box-shadow: 0 4px 30px 0 rgba(0,0,0,0.9);
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.9);
 }
 
-.content{
+.content {
     padding: 15px 15px;
     justify-content: center;
     text-align: center;
 }
 
-.card h3{
+.card h3 {
     font-size: 18px;
     font-family: 'Righteous';
     margin-bottom: 25px;
@@ -73,9 +73,8 @@
     justify-content: center;
 }
 
-.card img{
+.card img {
 
     width: 80px;
     height: auto;
 }
-

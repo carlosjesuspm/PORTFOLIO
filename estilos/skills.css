@@ -1,47 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
 
-.skills{
+.skills {
 
     background-color: #20262966;
-    color:#fff;
+    color: #fff;
     padding: 50px 20px;
 }
 
-.contenido-skills{
+.contenido-skills {
 
     max-width: 1800px;
     margin: auto;
 
 }
 
-.skills h2{
+.skills h2 {
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-    
+
 }
 
-.fila-skills{
+.fila-skills {
     display: flex;
     padding-top: 40px;
-    
-    
+
+
 }
 
-.fila-skills img{
+.fila-skills img {
 
     width: 80px;
     height: auto;
 }
 
-.col-skills{
+.col-skills {
 
     width: 50%;
-    
+
 }
 
-.col-skills h3{
+.col-skills h3 {
 
     font-size: 28px;
     font-family: 'Righteous';
@@ -51,7 +51,9 @@
 
 }
 
-.contenedor-front, .contenedor-back, .contenedor-repositorios{
+.contenedor-front,
+.contenedor-back,
+.contenedor-repositorios {
 
     display: grid;
     grid-template-columns: auto;
@@ -59,42 +61,44 @@
 }
 
 
-.front, .back{
+.front,
+.back {
 
     text-align: center;
-    padding:10px;
+    padding: 10px;
 }
 
-.repositorio{
+.repositorio {
 
     text-align: center;
-    padding:15px;
+    padding: 15px;
 }
 
-.f1, .b1{
+.f1,
+.b1 {
     grid-column: 1 / span 2;
     grid-row: 1;
 }
 
-.f2, .b2{
-    text-align:left;
+.f2,
+.b2 {
+    text-align: left;
     grid-column: 1 / span 2;
     grid-row: 2;
-    
+
 
 }
 
-.f3, .b3{
+.f3,
+.b3 {
     text-align: right;
     grid-column: 1 / span 2;
     grid-row: 2;
     grid-template-columns: auto;
 }
 
-.f4, .b4{
+.f4,
+.b4 {
     grid-column: 1 / span 2;
     grid-row: 3;
 }
-
-
-

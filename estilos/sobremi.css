@@ -2,91 +2,90 @@
 
 /*SOBRE MÍ*/
 
-.sobremi{
+.sobremi {
 
     background-color: #20262977;
-    color:#fff;
+    color: #fff;
     padding: 50px 20px;
 }
 
-.contenido-sobremi{
+.contenido-sobremi {
 
     max-width: 1100px;
     margin: auto;
 
 }
 
-.sobremi h2{
+.sobremi h2 {
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-    
-}
- 
-.contenido-sobremi p{
 
-    font:22px;
+}
+
+.contenido-sobremi p {
+
+    font: 22px;
     line-height: 22px;
     margin-bottom: 20px;
 }
 
-.contenido-sobremi p span{
+.contenido-sobremi p span {
 
-    color:var(--letras);
+    color: var(--letras);
     font-weight: bold;
 }
 
-.fila{
+.fila {
     display: flex;
     padding-top: 40px;
-    
+
 }
 
-.col{
+.col {
 
     width: 50%;
 }
 
-.col h3{
+.col h3 {
 
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
 
-.col ul{
-    
+.col ul {
+
     list-style: none;
 }
 
-.col ul li{
+.col ul li {
 
     margin: 12px 0;
 }
 
-.col ul li strong{
+.col ul li strong {
 
     display: inline-block;
-    color:var(--letras);
+    color: var(--letras);
     width: 130px;
 }
 
-.col ul li span{
+.col ul li span {
 
     background-color: var(--letras);
     padding: 3px;
-    font-weight: bold;
     border-radius: 5px;
-} 
+}
 
-.contenedor-intereses{
+.contenedor-intereses {
 
     display: flex;
     flex-wrap: wrap;
 }
 
-.interes{
+.interes {
 
     width: 100px;
     height: 100px;
@@ -101,18 +100,18 @@
 
 }
 
-.interes:hover{
+.interes:hover {
 
     background-color: var(--header);
 }
 
-.interes i{
+.interes i {
 
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.sobremi button{
+.sobremi .descarga {
 
     cursor: pointer;
     background-color: transparent;
@@ -125,22 +124,23 @@
     color: #fff;
     position: relative;
     z-index: 10;
+    text-decoration: none;
 }
 
-.sobremi button .overlay{
+.sobremi .descarga .overlay {
 
     position: absolute;
     top: 0;
     left: 0;
     width: 0;
     height: 100%;
-    background-color:#ce67126c ;
+    background-color: #ce67126c;
     z-index: -1;
     transition: 1s;
 
 }
 
-.sobremi button:hover .overlay{
+.sobremi a:hover .overlay {
 
     width: 100%;
 }
