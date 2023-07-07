@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+:root {
+
+    --fondo: #e7f6f2;
+    --header: #A5C9CA;
+    --titulo: #2C3333;
+    --letras: #395B64;
+}
+
+
+.portfolio {
+
+    background-color: #20262966;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.contenido-portfolio {
+
+    max-width: 1800px;
+    margin: auto;
+
+}
+
+.portfolio h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
